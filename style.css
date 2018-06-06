@@ -1,0 +1,438 @@
+/*Estilos Generales*/
+@import url('link href="https://fonts.googleapis.com/css?family=Quicksand|Shrikhand');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: transparent;
+    display: flex;
+    font-family: serif;
+}
+
+.redes{
+    position: fixed;
+    top: 30%;
+    z-index: 100;
+}
+
+.facebook a{
+    background: #00101a;
+    padding: 10px 17px;
+    color: #FFF;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+.facebook a:hover{
+    background: #3B5998;
+    padding: 10px 50px;
+}
+
+.behance a{
+    background: #00101a;
+    padding: 10px 15px;
+    color: #FFF;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+.behance a:hover{
+    background: #55acee;
+    padding: 10px 50px;
+}
+
+.instagram a{
+    background: #00101a;
+    padding: 10px 17px;
+    color: #FFF;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+.instagram a:hover{
+    background: #e95950;
+    padding: 10px 50px;
+}
+
+.icono{
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #FFD46E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+ #box1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/BlueSky.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+#box2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/acoustic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+#box3{
+    height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/RostroFemenino.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+#box4{
+   height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/ballerina.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+#box5{
+   height: 100vh;
+    background-image: url(../IMG/Grart.jpg);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+#box6{
+   height: 100vh;
+    width: 100%;
+    background-image: url(../IMG/backdesign.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+.contenedor{
+    width: 80%;
+    margin: 0 auto; 
+    overflow: hidden;
+}
+
+
+/*header*/
+
+.titulo-blog{
+    margin: 0px auto;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+	font-size: 2.5em;
+    color: #00BCD4;
+    background-color: #fff;
+    padding: 0 1em;
+    
+    }
+
+ .Eslogan {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2em;
+     color: #00BCD4; 
+     background-color: #fff;
+    padding: 0 1em;
+     font-family: 'Quicksand', sans-serif;
+      border-bottom: 0.15em solid #FFD46E;
+    
+} 
+
+.Eslogan span {
+    padding: 0 1em;
+    letter-spacing: 35px;
+    color: #00bcd4; 
+    text-decoration: center;
+    display: inline-block;
+    font-weight: 350px;
+    font-size: 1.6em;
+    font-family: 'Shrikhand', cursive;
+    background-color: #fff;
+   
+}
+
+.container nav.desk,
+.container nav.mob{
+    
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #00bcd4;
+  height: 60px;
+  box-shadow: 0 2px 2px 0 #FFD46E;
+}
+ 
+nav.desk ul {
+  list-style: none;
+  width: 70%;
+  height: 60px;
+  margin: 0 auto;
+    text-align: center;
+}
+ 
+nav.desk ul li {
+  width: 20%;
+  float: left;
+  text-align: center;
+  line-height: 60px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+ 
+nav.desk ul li:hover,
+nav.mob ul li:hover{
+  background: #FFD46Ec5;
+}
+ 
+nav.desk ul li.active,
+nav.mob ul li.active{
+  background: ;
+}
+ 
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.mob,
+.hamburger-btn {
+  display: none;
+}
+ 
+@media screen and (max-width: 700px) {
+  nav.desk {
+    display: none;
+  }
+ 
+  nav.mob,
+  .hamburger-btn {
+    display: block;
+  }
+   
+  .hamburger-btn {
+    position: relative;
+  }
+ 
+  .hamburger-btn .fa-bars,
+  .hamburger-btn .fa-times {
+    position: fixed;
+    right: 25px;
+    top: 15px;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+  }
+ 
+  .mob ul{
+    margin-top: 60px;
+    background: #12bce4c4;
+    display: none;
+  }
+ 
+  .mob li {
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+   
+  .mob ul.active {
+    display: block;
+  }
+}
+    
+
+.fa-accusoft{
+  color: #FFD46E;
+  size: 4em; 
+  
+}
+
+
+/*main*/
+
+.main section {
+    width: 100%;
+    /* height: 30em; */
+    margin: 0 auto;
+    background: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: -205px; */
+    background-attachment: fixed;
+    padding: 2em;
+    color: #00151D;
+    background-color: #fff; 
+   
+}
+
+.titulo-articulo{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #00151D;
+    background-color: #fff;
+}
+
+.texto{
+    color: #00151D;
+    background-color: #fff;
+}
+
+
+
+.main section img {
+    width: 70%;
+}
+.obra {
+    width: 50%;
+    overflow: hidden;
+}
+
+
+
+/*ASIDE*/
+
+.aside {
+    width: 100%;
+    background-color: #00bcd4;
+    height: 1.5em;
+    margin-bottom: 0;
+    display: table;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    /*align-items: center;*/
+    
+}
+
+.aside img{ 
+   height: 60px;
+   width: auto;
+   margin: auto;
+   position: relative;
+   top: auto;
+    bottom: auto;
+    left: 40%;
+    right: auto;
+}
+
+.aside h4{
+    font-size: 25px;
+    text-align: justify
+}
+
+.copy{
+    height: auto;
+    width: 100%;
+    border: 5px;
+    background-color: #00151D;
+    display: table;
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+    float: right;
+}
+
+.copy p{
+    color: #fff;
+    font-size: 21px;
+    
+    
+}
+
+.copy img{
+   height: auto;
+   width: 50px;
+   margin: auto;
+   position: relative;
+   top: auto;
+    bottom: auto;
+    left: 90%;
+    right: auto;
+}
+
+/* Referencias:
+
+Códigos HTML, CSS y JavaScript:
+
+https://www.crehana.com/clases/9019/
+https://www.youtube.com/playlist?list=PLQCgNGUqLK4njrWWAXv30jx6CGzgI-SC3
+https://www.youtube.com/watch?v=oZa2Ut8u2S0&t=100s
+https://www.youtube.com/watch?v=oRhU90wCghY&t=139s
+https://www.youtube.com/watch?v=z-CPRslZS_A&t=1315s
+https://www.youtube.com/watch?v=XpeTEY5ndII
+https://www.youtube.com/watch?v=UA2BV3YC6wk
+https://www.youtube.com/watch?v=lgKg6lcsOAA
+https://www.youtube.com/watch?v=rTe0Nys7ing&t=741s
+https://www.youtube.com/watch?v=vEdrNJHiXXY
+https://www.youtube.com/watch?v=fd8Xc7HWJKs
+https://www.youtube.com/watch?v=ko7Rn8fNDAo&t=19s
+https://www.youtube.com/watch?v=FUnq3n9Lgk4
+https://www.codecademy.com/es/tracks/html-css-traduccion-al-espanol-america-latina-clone
+https://app.tutellus.com/cuaderno/aprende-programacion-basica-html-y-css-2839
+https://www.youtube.com/watch?v=TzAshjkhFQw
+https://www.youtube.com/watch?v=P0hPSOpHa8E
+
+Imagenes tomadas de:
+
+ http://www.artbo.co/content/download/35634/869389/file/CAT_SECCIO%CC%81N_ARTBO_2017.pdf
+ https://www.pexels.com/ 
+ 
+ Iconos tomados de:
+ https://fontawesome.com/
+ http://fontello.com/ 
+
+Páginas de referencia:
+
+https://www.artbo.co/
+http://www.mac.org.co/
+https://www.otros360grados.com/exposicin-actual 
+http://www.museonacional.gov.co/
+http://www.mambogota.com/
+https://issuu.com/macbogota */
