@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: serif;
+    background-color: transparent;
+    display: flex;
+}
+
+.redes{
+    position: fixed;
+    top: 30%;
+    z-index: 100;
+    
+    
+}
+
+.facebook a{
+    background: #00101a;
+    padding: 10px 20px;
+    color: #FFF;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+.facebook a:hover{
+    background: #3B5998;
+    padding: 10px 50px;
+}
+
+.twitter a{
+    background: #00101a;
+    padding: 10px 16px;
+    color: #FFF;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+.twitter a:hover{
+    background: #55acee;
+    padding: 10px 50px;
+}
+
+.instagram a{
+    background: #00101a;
+    padding: 10px 17px;
+    color: #FFF;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+.instagram a:hover{
+    background: #e95950;
+    padding: 10px 50px;
+}
+
+.contenedor{
+    width: 70%;
+    margin: 0 auto; 
+    overflow: hidden;  
+    
+}
+
+.menu{
+    width: 100%;
+    height: 50px;
+    
+    display: inline-block;
+    border: 5px solid #000;
+    background-color: #000;
+    
+}
+
+.mac{
+    padding: 0 80px;
+    
+}
+
+.menu ul{
+    display: flex;
+    margin: auto;
+    
+}
+
+.issu{
+    transition: all .4s ease;
+    width: 100%;
+    margin: 0;
+    padding: 20px 80px;
+    position: relative;
+}
+
+.texto{
+    color: #00151D;
+    background-color: #ffffffe0;
+   padding: 20px 80px;
+    margin: 0;
+     
+}

@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: serif;
+    background-color: transparent;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.redes{
+    position: fixed;
+    top: 25%;
+    z-index: 100;
+}
+
+.facebook a{
+    background: #00101a;
+    padding: 10px 20px;
+    color: #FFF;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+.facebook a:hover{
+    background: #3B5998;
+    padding: 10px 50px;
+}
+
+.twitter a{
+    background: #00101a;
+    padding: 10px 16px;
+    color: #FFF;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+.twitter a:hover{
+    background: #55acee;
+    padding: 10px 50px;
+}
+
+.instagram a{
+    background: #00101a;
+    padding: 10px 17px;
+    color: #FFF;
+    text-decoration: none;
+    transition: all .4s ease;
+}
+
+.instagram a:hover{
+    background: #e95950;
+    padding: 10px 50px;
+}
+
+
+#box1{
+    height: 110vh;
+    width: 100%;
+    background-image: url(../IMG/MariaEdwards.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    
+}
+
+#box2{
+    height: 110vh;
+    width: 100%;
+    background-image: url(../IMG/ManuelCalderon.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    
+}
+
+#box3{
+    height: 110vh;
+    width: 100%;
+    background-image: url(../IMG/FedericoFilippi.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    
+}
+
+#box4{
+   height: 110vh;
+    width: 100%;
+    background-image: url(../IMG/ElenaAlonso.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    
+    
+}
+
+.contenedor{
+    width: 100%;
+    margin: 0 auto; 
+    overflow: hidden;  
+    
+}
+
+
+.menu{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    text-align: center;
+    text-decoration: center;
+    display: inline-block;
+    border-bottom: 0.1em solid #000;
+    border-top: 0.1em solid #000;
+    
+}
+
+.menu ul{
+    display: flex;
+    margin: auto;
+    
+}
+
+.menu li{
+    list-style: none; 
+   padding: 15px 5em;
+    flex-grow: 1;
+    text-align: center;
+    text-decoration: none;
+}
+
+.menu ul li a{
+    list-style: none; 
+    text-decoration: none;
+    color: #000;
+    text-align: center;
+    padding: auto;
+    display: inline-block;
+}
+
+.menu ul li a:hover{ 
+    color: #00bcd4;
+    transition: all 150ms;
+    cursor: pointer;
+}
+
+.titulo-articulo{
+    text-align: center;
+    color: #00151D;
+    background-color: #ffffffe0;
+    margin: 0;
+}
+
+.texto{
+    color: #00151D;
+    background-color: #ffffffe0;
+    padding: 18px 150px;
+    margin: 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;  
+}
+
+.arte{
+    color: #00151D;
+    background-color: #ffffffe0;
+    padding: 18px 150px;
+    margin: 0;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#slideshow {
+  overflow: hidden;
+  height: 510px;
+  width: 728px;
+  margin: 0 auto;
+}
+
+.slide-wrapper {
+  width: 2912px;
+  -webkit-animation: slide 18s ease infinite;
+}
+
+.slide {
+  float: left;
+  height: 510px;
+  width: 728px;
+}
+
+.slide:nth-child(1) {
+  background: #D93B65;
+    background-image: url(../IMG/IvanHurtado.jpg);
+}
+
+.slide:nth-child(2) {
+  background: #037E8C;
+    background-image: url(../IMG/LaercioRedondo.jpg);
+}
+
+.slide:nth-child(3) {
+  background: #36BF66;
+    background-image: url(../IMG/NicolasGrospierre.jpg);
+}
+
+.slide:nth-child(4) {
+  background: #D9D055;
+    background-image: url(../IMG/Rhizopus.jpg);
+}
+
+.slide-number {
+  color: #FFF;
+  text-align: center;
+  margin: 445px 0;
+  font-size: 3em;
+    background-color: #000;
+}
+
+@-webkit-keyframes slide {
+  20% {margin-left: 0px;}
+  30% {margin-left: -728px;}
+  50% {margin-left: -728px;}
+  60% {margin-left: -1456px;}
+  70% {margin-left: -1456px;}
+  80% {margin-left: -2184px;}
+  90% {margin-left: -2184px;}
+}
+
+
+.artbo{
+    float: left;
+    margin: 0;
+    padding: 40px 150px;
+    position: relative;
+}
+    
+.camara{
+    float: right;
+    margin: 0;
+    padding: 45px 150px;
+    position: relative;
+}
+
