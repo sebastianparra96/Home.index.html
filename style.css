@@ -79,7 +79,7 @@ body{
  #box1{
     height: 100vh;
     width: 100%;
-    background-image: url(../IMG/BlueSky.jpg);
+    background-image: url(BlueSky.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -91,7 +91,7 @@ body{
 #box2{
     height: 100vh;
     width: 100%;
-    background-image: url(../IMG/acoustic.jpg);
+    background-image: url(acoustic.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -103,7 +103,7 @@ body{
 #box3{
     height: 100vh;
     width: 100%;
-    background-image: url(../IMG/RostroFemenino.jpg);
+    background-image: url(RostroFemenino.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -115,7 +115,7 @@ body{
 #box4{
    height: 100vh;
     width: 100%;
-    background-image: url(../IMG/ballerina.jpg);
+    background-image: url(ballerina.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -126,7 +126,7 @@ body{
 
 #box5{
    height: 100vh;
-    background-image: url(../IMG/Grart.jpg);
+    background-image: url(Grart.jpg);
     width: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -139,7 +139,7 @@ body{
 #box6{
    height: 100vh;
     width: 100%;
-    background-image: url(../IMG/backdesign.jpg);
+    background-image: url(backdesign.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
