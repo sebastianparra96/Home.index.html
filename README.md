@@ -1,3 +1,3 @@
 # Manosdearte
 
-Página web dedicada al arte contemporánep
+Página web dedicada al arte contemporáneo
